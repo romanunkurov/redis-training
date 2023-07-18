@@ -1,0 +1,13 @@
+spring:
+  security:
+    user:
+      name: 'Roman'
+      password: '123'
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test
+    driverClassName: org.postgresql.Driver
+  jpa:
+    database: postgresql
+    show-sql: true
+    hibernate:
+      ddl-auto: none
